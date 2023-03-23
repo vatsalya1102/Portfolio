@@ -358,9 +358,11 @@ a img.aligncenter {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #0a0a42;
+    background-color: #302f30;
     z-index: 0;
-    opacity: .6;
+    opacity: 0.4;
+    filter: blur(200px);
+    
 }
 .heading{
     color: #fff;
@@ -445,7 +447,8 @@ xclip
 #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #333333;
+    background-color: #5e5a5a;
+    opacity: 0.9;
 }
 
 #clouds{
