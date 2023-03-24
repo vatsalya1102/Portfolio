@@ -378,7 +378,7 @@ a img.aligncenter {
     text-transform: uppercase;
 }
 .heading p{
-    font-size: 18px;
+    font-size: 20px;
     padding: 20px 0px;
 }
 
@@ -2225,7 +2225,7 @@ select.mobile-device {
 /* Footer left */
 
 .footer-distributed .footer-left {
-    float: left;
+    text-align: center;
 }
 
 .footer-distributed .footer-links {
@@ -2472,4 +2472,8 @@ select.mobile-device {
 .btn-light:focus {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
+}
+
+.socials {
+    margin: 16px;
 }
